@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 mai 2015, 16:46:05
+    Author     : Joffrey
+*/
+@font-face {
+    font-family: pixelFont;
+    src: url(../fonts/PixelSplitter-Bold.ttf);
+}
+
+#body_forum
+{
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 404px;
+}
+
+#container_header_forum
+{
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    overflow: hidden;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/toit.gif"); 
+}
+
+#header_forum
+{
+    background-color: #7fb471;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/header.gif"); 
+}
+
+#container_forum
+{
+    font-family: pixelFont;
+    margin-top: 16px;
+    margin-left: 32px;
+    width: 100%;
+    max-width: 990px;
+}
+
+#div_wallback_forum
+{
+    background-image: url("../img/wall-pattern.gif"); 
+    background-repeat: repeat;
+    background-size: auto auto;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    max-width: 1054px;
+    margin-left: 49px;
+}
+
+#container_footer_forum
+{
+    background-image: url("../img/wall-footer.gif"); 
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    max-width: 1054px;
+    margin-left: 49px;
+    padding-bottom: 10%;
+}
+
+#menu {
+  width: 858px;
+  font-family: pixelFont;
+  text-align: center;
+  margin-top: 248px;
+  margin-left: 150px;
+}
+
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#menu li { 
+display: inline; 
+padding: 20px; 
+}
+
+#menu a {
+    padding: 8px 8px 8px 8px;
+      color: black;
+}
+
+#menu a:hover {
+    
+}
+
