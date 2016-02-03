@@ -1,3 +1,2 @@
 # Forum-Laravel
-Petit forum crée sous laravel
-03/02/2016 : visible à cette adresse http://5.135.190.22/forum
+Petit forum crée sous laravel visible à cette adresse (03/02/2016) http://5.135.190.22/forum
