@@ -72,7 +72,7 @@ class PostController extends Controller {
         $post->setIsDelete(false);
         Auth::user()->posts()->save($post);
         Auth::user()->setNbPost(Auth::user()->getNbPost()+1);
-        Auth::user()->update();
+        Auth::user()->save();
         
         return redirect('forum/'.$idForum.'/topic/'. $idTopic .'/post');
     
