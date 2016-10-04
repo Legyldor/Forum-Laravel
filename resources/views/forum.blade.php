@@ -18,7 +18,7 @@ and open the template in the editor.
             <div id="container_header_forum" >
                 <div id="menu">
                             <ul>
-                                <li><a href="/forum">Acceuil</a></li>
+                                <li><a href="/forum">Accueil</a></li>
                                 <li><a href="/membre">Membres</a></li>
                                 @if(Auth::user() == NULL)
                                     <li><a href="/auth/register">Inscription</a></li>
